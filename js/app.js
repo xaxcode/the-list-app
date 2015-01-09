@@ -3,7 +3,7 @@ $(document).ready(function() {
 		
 		var userInput = $("#new-list-item").val();
 		
-    $("ul").prependTo("<li>" + userInput + "</li>");
+    $("ul").prepend("<li>" + userInput + "</li>");
    
     
  });
