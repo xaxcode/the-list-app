@@ -16,7 +16,7 @@ ul {
 	margin-top: 5.1rem;
 	line-height: 45%;
 }
-div.scroll {
+.scroll {
 	/*background-color: lightgrey;*/
     width: 58.6%;
     padding: 25px;
@@ -34,10 +34,17 @@ p {
 	font-size: 2.2rem;
 
 }
-.scroll p{
+
+.scroll li{
 	margin-top: 5px;
 	margin-bottom: 3px;
+	font-size: 3rem;
+	margin-right: 718px;
 
+}
+.scroll ul {
+	margin: 0;
+	list-style: none;
 }
 
 .main {
@@ -51,7 +58,7 @@ p {
 .itemInsert{
 	width: 300px;
 }
-input[type="submit"] {
+button {
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -65,7 +72,7 @@ input[type="submit"] {
     height: 86px;
     width: 300px;
 }
-input[type=submit]:hover {
+button:hover {
 	background-color: lightgrey;
  	cursor: pointer;
 }
@@ -78,22 +85,4 @@ input[type=text] {
 	width: 650px;
 	font-size: 2.5rem;
 }
-input[type="checkBox"] {
-	display: none;
-}
 
-label {
-  cursor: pointer;
-}
-
-input[type="checkBox"] + label span {
-	border: 3px solid #000000;
-	display:inline-block;
-	width:19px;
-    height:19px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-}
-input[type="checkBox"]:checked + label span {
-	background: "black";
-	}
