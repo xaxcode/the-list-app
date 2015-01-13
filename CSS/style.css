@@ -12,7 +12,7 @@ ul {
 	font-size: 2rem;
 	width: 100%;
 	text-align: left;
-	margin-left: 23.1rem;
+	margin-left: 18.1rem;
 	margin-top: 5.1rem;
 	line-height: 45%;
 }
@@ -23,7 +23,7 @@ ul {
     border: 4px black;
     border-style: solid;
     margin: 25px;
-    margin-left: 23.1rem;
+    margin-left: 18.1rem;
 	margin-top: 1.1rem;
 	line-height: 500%;
 	height: 500px;
@@ -49,11 +49,11 @@ p {
     text-decoration: line-through; 
 }
   .main {
-	margin-left: 23.1rem;
+	margin-left: 18.1rem;
 	margin-top: -1.9rem;
 	width: 100%;
 	text-align: left;
-	margin-left: 23.1rem;
+	margin-left: 18.1rem;
 	vertical-align: middle;
 }
 .itemInsert{
