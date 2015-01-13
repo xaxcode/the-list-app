@@ -36,18 +36,19 @@ p {
 }
 
 .scroll li{
-	margin-top: 5px;
-	margin-bottom: 3px;
+	text-align: left;	
 	font-size: 3rem;
-	margin-right: 718px;
+	
 
 }
 .scroll ul {
 	margin: 0;
 	list-style: none;
 }
-
-.main {
+.strike {
+    text-decoration: line-through; 
+}
+  .main {
 	margin-left: 23.1rem;
 	margin-top: -1.9rem;
 	width: 100%;
